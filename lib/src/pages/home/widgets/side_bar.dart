@@ -11,6 +11,7 @@ class _SideBarState extends State<SideBar> {
   Widget build(BuildContext context) {
     final _size = MediaQuery.of(context).size;
     return Container(
+      color: mC,
       padding: EdgeInsets.only(left: 32.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -24,7 +25,28 @@ class _SideBarState extends State<SideBar> {
               fontWeight: FontWeight.w600,
             ),
           ),
-          SizedBox(height: _size.height / 20.0),
+          SizedBox(height: _size.height / 40.0),
+          Container(
+            height: 4.0,
+            margin: EdgeInsets.only(right: 160.0),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(30.0),
+              color: mCD,
+              boxShadow: [
+                BoxShadow(
+                  color: mCD,
+                  offset: Offset(2.0, 2.0),
+                  blurRadius: 2.0,
+                ),
+                BoxShadow(
+                  color: mCL,
+                  offset: Offset(-1.0, -1.0),
+                  blurRadius: 1.0,
+                ),
+              ],
+            ),
+          ),
+          SizedBox(height: _size.height / 60.0),
           Expanded(
             child: ListView.builder(
               itemCount: 30,
