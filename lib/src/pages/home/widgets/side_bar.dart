@@ -57,11 +57,11 @@ class _SideBarState extends State<SideBar> {
                     text: TextSpan(
                       children: [
                         TextSpan(
-                          text: 'Post: ',
+                          text: 'POST :  ',
                           style: TextStyle(
-                            color: Colors.deepOrange.shade600,
-                            fontSize: _size.width / 120.0,
-                            fontWeight: FontWeight.w400,
+                            color: Colors.deepOrange.shade400,
+                            fontSize: _size.width / 140.0,
+                            fontWeight: FontWeight.w600,
                           ),
                         ),
                         TextSpan(

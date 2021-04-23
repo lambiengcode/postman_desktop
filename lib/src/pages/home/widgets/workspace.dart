@@ -20,6 +20,7 @@ class _WorkSpaceState extends State<WorkSpace> {
   Widget build(BuildContext context) {
     final _size = MediaQuery.of(context).size;
     return Container(
+      color: mC,
       child: Column(
         children: [
           SizedBox(height: _size.height / 30.0),
