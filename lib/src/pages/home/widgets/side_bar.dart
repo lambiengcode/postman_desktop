@@ -21,7 +21,7 @@ class _SideBarState extends State<SideBar> {
             '.History',
             style: TextStyle(
               color: colorTitle,
-              fontSize: _size.width / 75.0,
+              fontSize: 28.0,
               fontWeight: FontWeight.w600,
             ),
           ),
@@ -60,7 +60,7 @@ class _SideBarState extends State<SideBar> {
                           text: 'POST :  ',
                           style: TextStyle(
                             color: Colors.deepOrange.shade400,
-                            fontSize: _size.width / 140.0,
+                            fontSize: 12.0,
                             fontWeight: FontWeight.w600,
                           ),
                         ),
@@ -68,7 +68,7 @@ class _SideBarState extends State<SideBar> {
                           text: 'localhost:3000/Auth/Login',
                           style: TextStyle(
                             color: colorDarkGrey,
-                            fontSize: _size.width / 120.0,
+                            fontSize: 14.0,
                             fontWeight: FontWeight.w400,
                             decoration: TextDecoration.underline,
                           ),

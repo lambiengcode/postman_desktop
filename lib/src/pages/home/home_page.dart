@@ -16,16 +16,16 @@ class _HomePageState extends State<HomePage> {
         child: Row(
           children: [
             Expanded(
-              flex: 1,
+              flex: 2,
               child: SideBar(),
             ),
             VerticalDivider(
               color: colorDarkGrey,
-              width: .15,
-              thickness: .15,
+              width: .2,
+              thickness: .2,
             ),
             Expanded(
-              flex: 4,
+              flex: 8,
               child: WorkSpace(),
             ),
           ],
